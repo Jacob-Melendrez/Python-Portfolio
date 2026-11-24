@@ -6,4 +6,6 @@ def even_cubes(n):
         total += number ** 3
     print(total)
 
+"""
 even_cubes(4)
+"""

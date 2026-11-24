@@ -7,6 +7,8 @@ def shipping_cost(weight):
         cost = 25
     return cost
 
+'''
 print(shipping_cost(3))
 print(shipping_cost(15))
 print(shipping_cost(20))
+'''

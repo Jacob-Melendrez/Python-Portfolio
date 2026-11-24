@@ -4,6 +4,8 @@ def sum_fours_for(n):
     
     for number in range(0, n, 4):
         total += number
-    print(total)
-    
-sum_fours_for(17)
+    return total
+
+'''
+print(sum_fours_for(17))
+'''

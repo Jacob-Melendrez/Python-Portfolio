@@ -8,8 +8,10 @@ print()
 # Taking useer input and evaluating conditional. 
 temperature = int(input("Enter a temperature: "))
 
-if temperature < 32: 
+if temperature <= 32: 
     print("It is freezing.")
+else:
+    print("Not freezing.")
     
 print("Done")
 print() 

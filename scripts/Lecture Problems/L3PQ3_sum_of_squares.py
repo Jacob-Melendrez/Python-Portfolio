@@ -1,10 +1,11 @@
 n = int(input("Enter an integer: "))
 
-i = 1 
+
 sum = 0 
+i = 2 
 
 while i <= n:
-    sum = (i ** 2) + sum
-    i += 1
+    sum = (i ** 3) + sum
+    i += 2
     
 print(sum)
